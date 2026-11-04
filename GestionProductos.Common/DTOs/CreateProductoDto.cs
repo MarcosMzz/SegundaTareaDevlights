@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GestionProductos.Common.DTOs
 {
-    internal class CreateProductoDto
+    public class CreateProductoDto
     {
         [Required]
         [StringLength(100, MinimumLength = 3, ErrorMessage = "El nombre debe tener entre 3 y 100 caracteres.")]
